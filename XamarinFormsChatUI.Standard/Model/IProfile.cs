@@ -2,9 +2,8 @@
 {
     public interface IProfile
     {
-        string EmailAddress { get; set; }
-        string ProfileName { get; set; }
-
+        string EmailAddress { get; }
+        string ProfileName { get;  }
         bool Equals(object obj);
     }
 }
