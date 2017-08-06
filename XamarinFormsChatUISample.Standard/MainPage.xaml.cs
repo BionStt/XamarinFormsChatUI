@@ -1,7 +1,7 @@
 ﻿using Adapt.Presentation;
-using XamarinFormsChatUI.Model;
-using XamarinFormsChatUI.Pages;
 using Xamarin.Forms.Xaml;
+using XamarinFormsChatUI.Model;
+using XamarinFormsChatUISample.Pages;
 
 namespace XamarinFormsChatUI.Sample
 {

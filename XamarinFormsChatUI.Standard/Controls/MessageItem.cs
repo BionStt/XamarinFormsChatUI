@@ -25,14 +25,14 @@ namespace XamarinFormsChatUI.Controls
             Children.Add(_ProfileLabel);
 
             _TextLabel = new Label();
-            _TextLabel.SetBinding(Label.TextProperty, new Binding(nameof(Message.Text)));
+            _TextLabel.SetBinding(Label.TextProperty, new Binding(nameof(IMessage.Text)));
             _TextLabel.HorizontalTextAlignment = TextAlignment.Start;
             _TextLabel.MinimumWidthRequest = 300;
             _TextLabel.TextColor = Color.Black;
             Children.Add(_TextLabel);
 
             _DateTimeLabel = new Label();
-            _DateTimeLabel.SetBinding(Label.TextProperty, new Binding(nameof(Message.MessageDate)));
+            _DateTimeLabel.SetBinding(Label.TextProperty, new Binding(nameof(IMessage.MessageDate)));
             _DateTimeLabel.HorizontalTextAlignment = TextAlignment.End;
             _DateTimeLabel.TextColor = Color.Black;
             Children.Add(_DateTimeLabel);

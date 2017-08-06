@@ -5,7 +5,7 @@ namespace XamarinFormsChatUI.Model
     public class Message : TextModelBase, IMessage
     {
         private DateTime _MessageDate;
-        private Profile _FromProfile;
+        private IProfile _FromProfile;
 
         public DateTime MessageDate
         {
@@ -16,7 +16,7 @@ namespace XamarinFormsChatUI.Model
             }
         }
 
-        public Profile FromProfile
+        public IProfile FromProfile
         {
             get => _FromProfile;
             set

@@ -7,7 +7,7 @@ namespace XamarinFormsChatUI.Model
     public interface IChatProvider : IEnumerable<ITextModel>, INotifyCollectionChanged
     {
         Task LoadAllAsync();
-        Profile CurrentProfile { get; }
+        IProfile CurrentProfile { get; }
         void SendMessage(IMessage message);
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace XamarinFormsChatUI.Model
 {
-    public class Profile : ModelBase
+    public class Profile : ModelBase, IProfile
     {
         private string _ProfileName;
         private string _EmailAddress;

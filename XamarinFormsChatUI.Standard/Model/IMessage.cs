@@ -4,7 +4,7 @@ namespace XamarinFormsChatUI.Model
 {
     public interface IMessage : ITextModel
     {
-        Profile FromProfile { get; set; }
+        IProfile FromProfile { get; set; }
         DateTime MessageDate { get; set; }
     }
 }

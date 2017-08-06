@@ -6,7 +6,7 @@ namespace XamarinFormsChatUI.Model
 {
     public class DummyChatProvider : ObservableCollection<ITextModel>, IChatProvider
     {
-        public Profile CurrentProfile { get; private set; }
+        public IProfile CurrentProfile { get; private set; }
 
         public DummyChatProvider(Profile currentProfile)
         {

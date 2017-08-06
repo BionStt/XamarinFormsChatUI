@@ -62,12 +62,12 @@ namespace XamarinFormsChatUI.Controls
                     }
 
                     //TODO: This is just a dummy indicator for now
-                    _MainLayout.Children.Add(new IndicationNoteItem { BindingContext = new IndicationNote { Text = DateTime.Now.ToString() } });
+                    //_MainLayout.Children.Add(new IndicationNoteItem { BindingContext = new IndicationNote { Text = DateTime.Now.ToString() } });
 
                     foreach (var item in _ChatProvider)
                     {
                         var message = item as IMessage;
-                        var indicationNote = item as IndicationNote;
+                        var indicationNote = item as IIndicationNote;
 
                         if (message == null && indicationNote == null)
                         {

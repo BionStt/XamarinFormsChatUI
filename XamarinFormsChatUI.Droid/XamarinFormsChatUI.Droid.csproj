@@ -120,7 +120,11 @@
   <ItemGroup>
     <ProjectReference Include="..\XamarinFormsChatUI.Standard\XamarinFormsChatUI.Standard.csproj">
       <Project>{9a1ed959-56be-48db-bd07-545b00242318}</Project>
-      <Name>StocksShared</Name>
+      <Name>XamarinFormsChatUI.Standard</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XamarinFormsChatUISample.Standard\XamarinFormsChatUISample.Standard.csproj">
+      <Project>{3774276e-6730-4ced-8c16-1d1e4c26b1d0}</Project>
+      <Name>XamarinFormsChatUISample.Standard</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
