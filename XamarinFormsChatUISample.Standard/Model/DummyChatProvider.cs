@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.Threading.Tasks;
+using XamarinFormsChatUI.Model;
 
-namespace XamarinFormsChatUI.Model
+namespace XamarinFormsChatUISample.Model
 {
     public class DummyChatProvider : ObservableCollection<ITextModel>, IChatProvider
     {

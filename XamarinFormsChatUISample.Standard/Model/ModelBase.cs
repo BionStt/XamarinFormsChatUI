@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace XamarinFormsChatUI.Model
+namespace XamarinFormsChatUISample.Model
 {
     public class ModelBase : INotifyPropertyChanged
     {

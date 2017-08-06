@@ -1,9 +1,9 @@
 ﻿using Adapt.Presentation;
 using Xamarin.Forms.Xaml;
-using XamarinFormsChatUI.Model;
+using XamarinFormsChatUISample.Model;
 using XamarinFormsChatUISample.Pages;
 
-namespace XamarinFormsChatUI.Sample
+namespace XamarinFormsChatUISample
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MainPage

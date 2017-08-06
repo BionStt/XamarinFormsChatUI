@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using XamarinFormsChatUI.Model;
 
-namespace XamarinFormsChatUI.Model
+namespace XamarinFormsChatUISample.Model
 {
     public class TextModelBase : ModelBase, ITextModel
     {

@@ -1,6 +1,5 @@
 ﻿
-using samples = XamarinFormsChatUI.Sample;
-using Adapt.Presentation.UWP;
+using sample = XamarinFormsChatUISample;
 
 namespace XamarinFormsChatUI.UWP
 {
@@ -10,9 +9,7 @@ namespace XamarinFormsChatUI.UWP
         {
             InitializeComponent();
 
-            samples.MainPage.Permissions = new Permissions();
-
-            var app = new samples.App();
+            var app = new sample.App();
 
             LoadApplication(app);
         }

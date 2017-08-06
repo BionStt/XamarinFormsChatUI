@@ -1,6 +1,7 @@
 ﻿using System;
+using XamarinFormsChatUI.Model;
 
-namespace XamarinFormsChatUI.Model
+namespace XamarinFormsChatUISample.Model
 {
     public class Message : TextModelBase, IMessage
     {

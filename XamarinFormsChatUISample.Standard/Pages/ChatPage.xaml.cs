@@ -2,6 +2,7 @@
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinFormsChatUISample.Model;
 
 namespace XamarinFormsChatUISample.Pages
 {
@@ -25,7 +26,7 @@ namespace XamarinFormsChatUISample.Pages
             InitializeComponent();
         }
 
-        private void SendButton_Clicked(object sender, System.EventArgs e)
+        private void SendButton_Clicked(object sender, EventArgs e)
         {
             TheChatBox.ChatProvider.SendMessage(new Message { FromProfile = ChatProvider.CurrentProfile, MessageDate = DateTime.Now, Text = TheEditor.Text });
             TheEditor.Text = string.Empty;

@@ -1,4 +1,4 @@
-﻿namespace XamarinFormsChatUI.Sample
+﻿namespace XamarinFormsChatUISample
 {
     public partial class App
     {

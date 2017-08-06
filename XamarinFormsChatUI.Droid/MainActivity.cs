@@ -1,6 +1,6 @@
 ﻿
 using Adapt.Presentation.AndroidPlatform;
-using XamarinFormsChatUI.Sample;
+using XamarinFormsChatUISample;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
